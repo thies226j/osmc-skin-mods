@@ -115,6 +115,7 @@
 							<left>102</left>
 							<width>332</width>
 							<height>92</height>
+							<textcolor>ColorFO</textcolor>
 							<label>$INFO[ListItem.ChannelName]</label>
 							<animation effect="fade" start="100" end="70" time="200" tween="cubic" easing="out" reversible="true" condition="!Control.HasFocus(10)">Conditional</animation>
 						</control>
@@ -125,6 +126,7 @@
 							<width>88</width>
 							<height>92</height>
 							<align>right</align>
+							<textcolor>ColorFO</textcolor>
 							<label>[B]$INFO[ListItem.ChannelNumber][/B]</label>
 							<animation effect="fade" start="100" end="70" time="200" tween="cubic" easing="out" reversible="true" condition="!Control.HasFocus(10)">Conditional</animation>
 						</control>
@@ -192,6 +194,7 @@
 							<top>0</top>
 							<width>56</width>
 							<height>92</height>
+							<textcolor>ColorFO</textcolor>
 							<label>$INFO[ListItem.Label]</label>
 						</control>
 
@@ -254,7 +257,7 @@
 						<width>800</width>
 						<height>124</height>
 						<align>justify</align>
-						<textcolor>ColorFO</textcolor>
+						<textcolor>ColorDetails</textcolor>
 						<shadowcolor>ShadowColor</shadowcolor>
 						<label fallback="161">$INFO[ListItem.Plot]</label>
 					</control>
@@ -397,6 +400,7 @@
 							<top>12</top>
 							<width>200</width>
 							<align>right</align>
+							<textcolor>ColorFO</textcolor>
 							<label>$INFO[ListItem.StartTime]</label>
 						</control>
 
@@ -407,6 +411,7 @@
 							<width>200</width>
 							<height>27</height>
 							<align>right</align>
+							<textcolor>ColorFO</textcolor>
 							<label>$INFO[ListItem.EndTime]</label>
 						</control>
 
@@ -415,6 +420,7 @@
 							<left>308</left>
 							<top>12</top>
 							<width>712</width>
+							<textcolor>ColorFO</textcolor>
 							<label>$INFO[ListItem.Label]</label>
 						</control>
 
@@ -425,7 +431,7 @@
 							<width>712</width>
 							<height>27</height>
 							<font>XSmall</font>
-							<textcolor>ColorHeading</textcolor>
+							<textcolor>ColorFO</textcolor>
 							<label>$INFO[ListItem.Genre]</label>
 						</control>
 
@@ -487,7 +493,7 @@
 							<height>460</height>
 							<align>justify</align>
 							<font>XSmall</font>
-							<textcolor>ColorFO</textcolor>
+							<textcolor>ColorDetails</textcolor>
 							<shadowcolor>ShadowColor</shadowcolor>
 							<info>Container(11).ListItem.Plot</info>
 						</control>
@@ -676,6 +682,7 @@
 							<top>12</top>
 							<width>200</width>
 							<align>right</align>
+							<textcolor>ColorFO</textcolor>
 							<label>$INFO[ListItem.StartTime]</label>
 						</control>
 
@@ -686,6 +693,7 @@
 							<width>200</width>
 							<height>27</height>
 							<align>right</align>
+							<textcolor>ColorFO</textcolor>
 							<label>$INFO[ListItem.EndTime]</label>
 						</control>
 
@@ -694,6 +702,7 @@
 							<left>308</left>
 							<top>12</top>
 							<width>712</width>
+							<textcolor>ColorFO</textcolor>
 							<label>$INFO[ListItem.Label]</label>
 						</control>
 
@@ -704,7 +713,7 @@
 							<width>712</width>
 							<height>27</height>
 							<font>XSmall</font>
-							<textcolor>ColorHeading</textcolor>
+							<textcolor>ColorFO</textcolor>
 							<label>$INFO[ListItem.Genre]</label>
 						</control>
 
@@ -766,7 +775,7 @@
 							<height>460</height>
 							<align>justify</align>
 							<font>XSmall</font>
-							<textcolor>ColorFO</textcolor>
+							<textcolor>ColorDetails</textcolor>
 							<shadowcolor>ShadowColor</shadowcolor>
 							<info>Container(12).ListItem.Plot</info>
 						</control>
@@ -938,6 +947,7 @@
 							<top>12</top>
 							<width>200</width>
 							<align>right</align>
+							<textcolor>ColorFO</textcolor>
 							<label>$INFO[ListItem.StartTime]</label>
 						</control>
 
@@ -948,7 +958,7 @@
 							<height>27</height>
 							<font>XSmall</font>
 							<align>right</align>
-							<textcolor>ColorHeading</textcolor>
+							<textcolor>ColorFO</textcolor>
 							<label>$INFO[ListItem.Duration]</label>
 						</control>
 
@@ -977,6 +987,7 @@
 							<left>280</left>
 							<top>12</top>
 							<width>740</width>
+							<textcolor>ColorFO</textcolor>
 							<label>$INFO[ListItem.Label]</label>
 						</control>
 
@@ -987,7 +998,7 @@
 							<width>740</width>
 							<height>27</height>
 							<font>XSmall</font>
-							<textcolor>ColorHeading</textcolor>
+							<textcolor>ColorFO</textcolor>
 							<label>$INFO[ListItem.Genre]</label>
 						</control>
 
@@ -1034,7 +1045,7 @@
 							<height>460</height>
 							<align>justify</align>
 							<font>XSmall</font>
-							<textcolor>ColorFO</textcolor>
+							<textcolor>ColorDetails</textcolor>
 							<shadowcolor>ShadowColor</shadowcolor>
 							<info>Container(13).ListItem.Plot</info>
 						</control>

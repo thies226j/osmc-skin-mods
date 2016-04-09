@@ -106,6 +106,7 @@
 						<top>12</top>
 						<width>300</width>
 						<align>right</align>
+						<textcolor>ColorFO</textcolor>
 						<label>$INFO[ListItem.StartDate]</label>
 					</control>
 
@@ -116,7 +117,7 @@
 						<height>27</height>
 						<font>XSmall</font>
 						<align>right</align>
-						<textcolor>ColorHeading</textcolor>
+						<textcolor>ColorFO</textcolor>
 						<label>$INFO[ListItem.StartTime]$INFO[ListItem.Duration, (,)]</label>
 					</control>
 
@@ -135,6 +136,7 @@
 						<left>380</left>
 						<top>12</top>
 						<width>640</width>
+						<textcolor>ColorFO</textcolor>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 
@@ -145,7 +147,7 @@
 						<width>640</width>
 						<height>27</height>
 						<font>XSmall</font>
-						<textcolor>ColorHeading</textcolor>
+						<textcolor>ColorFO</textcolor>
 						<label>$INFO[ListItem.ChannelName]</label>
 					</control>
 
@@ -192,7 +194,7 @@
 						<height>460</height>
 						<align>justify</align>
 						<font>XSmall</font>
-						<textcolor>ColorFO</textcolor>
+						<textcolor>ColorDetails</textcolor>
 						<shadowcolor>ShadowColor</shadowcolor>
 						<info>Container(50).ListItem.Plot</info>
 					</control>
@@ -290,7 +292,7 @@
 					<height>72</height>
 					<label>$VAR[CustomMenuHeading]</label>
 					<font>XLarge</font>
-					<textcolor>ColorFO</textcolor>
+					<textcolor>ColorDetails</textcolor>
 				</control>
 
 				<!-- Look controls -->

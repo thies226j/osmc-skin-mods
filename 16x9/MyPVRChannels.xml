@@ -152,6 +152,7 @@
 						<left>116</left>
 						<width>88</width>
 						<height>108</height>
+						<textcolor>ColorFO</textcolor>
 						<label>[B]$INFO[ListItem.ChannelNumber][/B]</label>
 					</control>
 
@@ -161,6 +162,7 @@
 						<top>12</top>
 						<width>802</width>
 						<height>36</height>
+						<textcolor>ColorFO</textcolor>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 
@@ -171,7 +173,7 @@
 						<width>802</width>
 						<height>27</height>
 						<font>XSmall</font>
-						<textcolor>ColorHeading</textcolor>
+						<textcolor>ColorFO</textcolor>
 						<label>$INFO[ListItem.Title]</label>
 					</control>
 
@@ -254,7 +256,7 @@
 						<height>460</height>
 						<align>justify</align>
 						<font>XSmall</font>
-						<textcolor>ColorFO</textcolor>
+						<textcolor>ColorDetails</textcolor>
 						<shadowcolor>ShadowColor</shadowcolor>
 						<info>Container(50).ListItem.Plot</info>
 					</control>
@@ -352,7 +354,7 @@
 					<height>72</height>
 					<label>$VAR[CustomMenuHeading]</label>
 					<font>XLarge</font>
-					<textcolor>ColorFO</textcolor>
+					<textcolor>ColorDetails</textcolor>
 				</control>
 
 				<!-- Look controls -->
